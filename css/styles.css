@@ -33,9 +33,13 @@ h1 {
     overflow: hidden;
     flex-direction: column;
     gap: 16px 0;
-    width: 100%;
+    width: 480px;
+    max-width:  1555px;
     padding: 24px 0;
     align-items: center;
+
+    width: 30rem;
+    max-width: 90vw;
 }
 
 .tag {
@@ -66,7 +70,7 @@ span {
     display: flex;
     width: fit-content;
     animation-name: loop;
-    animation-duration: 15951ms;
+    animation-duration: 20s;
     animation-direction: normal;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -76,7 +80,7 @@ span {
     display: flex;
     width: fit-content;
     animation-name: loop;
-    animation-duration: 15951ms;
+    animation-duration: 20s;
     animation-direction: reverse;
     animation-timing-function: linear;
     animation-iteration-count: infinite;

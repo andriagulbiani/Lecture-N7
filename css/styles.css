@@ -2,6 +2,15 @@ body {
     background-color: #1e293b;
 }
 
+.content {
+    min-width: 1728px;
+    min-height: 927px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -49,4 +58,29 @@ span {
 .inner {
     display: flex;
     width: fit-content;
+    animation-name: loop;
+    animation-duration: 15951ms;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+.inner-reverse {
+    display: flex;
+    width: fit-content;
+    animation-name: loop;
+    animation-duration: 15951ms;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

@@ -4,8 +4,8 @@ body {
 }
 
 .content {
-    min-width: 1728px;
-    min-height: 927px;
+    min-width: 100vw;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ p {
 }
 
 span {
-    font-size: 19px;
+    font-size: 1vw;
     color: #64748b;
 }
 
